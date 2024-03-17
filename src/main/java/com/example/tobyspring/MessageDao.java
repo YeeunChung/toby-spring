@@ -1,13 +1,15 @@
+package com.example.tobyspring;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class AccountDao {
+public class MessageDao {
 
     private ConnectionMaker connectionMaker;
 
-    public AccountDao(ConnectionMaker connectionMaker) {
+    public MessageDao(ConnectionMaker connectionMaker) {
         this.connectionMaker = connectionMaker;
     }
 

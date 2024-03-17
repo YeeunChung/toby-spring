@@ -1,3 +1,5 @@
+package com.example.tobyspring;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 

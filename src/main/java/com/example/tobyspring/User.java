@@ -1,3 +1,5 @@
+package com.example.tobyspring;
+
 public class User {
     String id;
     String name;
